@@ -1,5 +1,5 @@
 #!/bin/sh
-yum -y install wget
+yum -y install wget bsdtar >/dev/null
 random() {
 	tr </dev/urandom -dc A-Za-z0-9 | head -c5
 	echo
